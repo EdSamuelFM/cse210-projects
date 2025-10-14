@@ -1,5 +1,3 @@
-// Activity.cs
-
 public abstract class Activity
 {
     protected string _name;
@@ -70,4 +68,5 @@ public abstract class Activity
     
     // Abstract method to be implemented by all derived classes
     public abstract void Run();
+
 }
