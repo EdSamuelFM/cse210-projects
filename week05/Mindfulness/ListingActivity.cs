@@ -1,5 +1,3 @@
-// ListingActivity.cs
-
 public class ListingActivity : Activity
 {
     private List<string> _prompts;
@@ -75,4 +73,5 @@ public class ListingActivity : Activity
         }
         return items;
     }
+
 }
