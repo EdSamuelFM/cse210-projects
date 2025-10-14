@@ -1,5 +1,3 @@
-// ReflectionActivity.cs
-
 public class ReflectionActivity : Activity
 {
     private List<string> _prompts;
@@ -91,4 +89,5 @@ public class ReflectionActivity : Activity
         string question = GetRandomItem(_questions, _usedQuestions);
         Console.Write($"> {question} ");
     }
+
 }
